@@ -17,21 +17,15 @@ O objetivo do UpgradingMind é compartilhar o aprendizado do inglês (inclusive 
 ## Estrutura do Projeto
 
 ```
-english/
+/
 ├── index.html
-├── src/
-│   ├── components/
-│   │   ├── header.js
-│   │   └── footer.js
-│   ├── pages/
-│   │   ├── adjetivosPossessivos.html
-│   │   ├── importanciaInlgesTI.html
-│   │   └── ... (outros artigos)
-│   └── ...
+├── components/
+│   ├── header.js
+│   └── footer.js
+├── pages/
 ├── scripts/
 │   └── tailwind-config.js
 ├── README.md
-└── ...
 ```
 
 - **index.html**: Página inicial com cards para os principais artigos.
