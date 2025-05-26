@@ -11,8 +11,6 @@ document.getElementById('header').innerHTML = `
       <nav class="space-x-6 font-mono text-lg">
         <a href="${homeHref}" class="px-4 py-2 rounded-md bg-[#1e293b] text-slate-100 hover:bg-[#334155] transition">Home</a>
         <a href="https://theeddu.github.io/PersonalPortfolioPage/" target="_blank" class="px-4 py-2 rounded-md bg-[#1e293b] text-slate-100 hover:bg-[#334155] transition">Meu Portfolio</a>
-        <a href="https://theeddu.github.io/Cyber-Blog/" target="_blank" class="px-4 py-2 rounded-md bg-[#1e293b] text-slate-100 hover:bg-[#334155] transition">Meus Artigos</a>
-        <a href="https://theeddu.github.io/PortfolioLabs/" target="_blank" class="px-4 py-2 rounded-md bg-[#1e293b] text-slate-100 hover:bg-[#334155] transition">Portfolio de Labs</a>
         <a href="#footer" class="px-4 py-2 rounded-md bg-[#1e293b] text-slate-100 hover:bg-[#334155] transition">Contato</a>
       </nav>
     </div>
