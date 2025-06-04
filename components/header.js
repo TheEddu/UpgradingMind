@@ -1,5 +1,5 @@
 const isInPages = window.location.pathname.includes('/pages/');
-const homeHref = isInPages ? '../index.html' : './index.html';
+const homeHref = isInPages ? '../../index.html' : './index.html';
 
 document.getElementById('header').innerHTML = `
   <header class="bg-[#072559] shadow-lg border-b-4 border-[#1e293b]">
@@ -10,7 +10,6 @@ document.getElementById('header').innerHTML = `
       </h1>
       <nav class="space-x-6 font-mono text-lg">
         <a href="${homeHref}" class="px-4 py-2 rounded-md bg-[#1e293b] text-slate-100 hover:bg-[#334155] transition">Home</a>
-        <a href="https://theeddu.github.io/PersonalPortfolioPage/" target="_blank" class="px-4 py-2 rounded-md bg-[#1e293b] text-slate-100 hover:bg-[#334155] transition">Meu Portfolio</a>
         <a href="#footer" class="px-4 py-2 rounded-md bg-[#1e293b] text-slate-100 hover:bg-[#334155] transition">Contato</a>
       </nav>
     </div>
