@@ -1,5 +1,5 @@
 const isInPages = window.location.pathname.includes('/pages/');
-const homeHref = isInPages ? '../../index.html' : './index.html';
+const homeHref = isInPages ? '../../index.html' : '/UpgradingMind/index.html';
 
 document.getElementById('header').innerHTML = `
   <header class="bg-[#072559] shadow-lg border-b-4 border-[#1e293b]">
